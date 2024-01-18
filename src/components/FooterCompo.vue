@@ -100,6 +100,10 @@ const submitForm = async () => {
       row-gap: 30px;
    }
 
+   .footer__logo > a {
+      text-decoration: none;
+   }
+
    .footer__info {
       row-gap: 30px;
 
