@@ -136,7 +136,12 @@ a {
       }
 
       button.owl-next::before {
-         content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='14' viewBox='0 0 10.51905 16'><path d='M1,1,9,8.34426,1,15' style='fill: none;stroke: %23000;stroke-linecap: round;stroke-width: 2px'/></svg>");
+         content: "";
+         display: block;
+         width: 100%;
+         height: 100%;
+         border-radius: 100%;
+         background: url("../../img/right.svg") no-repeat center;
       }
 
       span {

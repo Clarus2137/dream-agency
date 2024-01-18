@@ -49,6 +49,7 @@
    font-size: 1rem;
    font-weight: normal;
    letter-spacing: 0.16px;
+   text-align: center;
 
    span {
       position: relative;
@@ -73,11 +74,18 @@
       }
    }
 
+
+   @media(min-width: 768px) {
+      text-align: left;
+   }
+
+
    @media(min-width: 992px) {
       padding-right: calc(var(--bs-gutter-x) * 0.5);
       padding-left: calc(var(--bs-gutter-x) * 0.5);
       font-size: 0.845rem;
    }
+
 
    @media(min-width: 1200px) {
       font-size: 1rem;
